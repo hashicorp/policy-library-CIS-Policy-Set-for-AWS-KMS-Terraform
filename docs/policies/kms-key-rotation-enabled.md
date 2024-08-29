@@ -4,6 +4,14 @@
 |---------------------|--------------|
 | Amazon Web Services | Security     |
 
+## CIS versions that include this policy
+
+| Version | Included |
+|---------|----------|
+| 1.2.0   | &check;  |
+| 1.4.0   | &check;  |
+| 3.0.0   | &check;  |
+
 ## Description
 
 AWS KMS enables customers to rotate the backing key, which is key material stored in AWS KMS and is tied to the key ID of the KMS key. It's the backing key that is used to perform cryptographic operations such as encryption and decryption. Automated key rotation currently retains all previous backing keys so that decryption of encrypted data can take place transparently.
