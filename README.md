@@ -17,3 +17,9 @@ adopting in Amazon Web Services.
 The following CIS standards have equivalent Sentinel policies written for them. These policies get enforced between the `plan` and `apply` phase whenever a run gets queued in TFC/TFE.
 
 - [kms-key-rotation-enabled](./docs/policies/kms-key-rotation-enabled.md)
+
+### Minimum Sentinel Version Required
+
+```pre
+0.26.x
+```
