@@ -20,7 +20,7 @@ We aim to validate the effectiveness of our policies by collecting diverse user 
 
 ### Policies Included
 
-- kms-key-rotation-enabled ([docs](https://github.com/hashicorp/policy-library-cis-aws-kms-terraform/blob/main/docs/policies/kms-key-rotation-enabled.md) | [code](https://github.com/hashicorp/policy-library-cis-aws-kms-terraform/blob/main/policies/kms-key-rotation-enabled.sentinel))
+- AWS KMS key rotation should be enabled ([docs](https://github.com/hashicorp/policy-library-cis-aws-kms-terraform/blob/main/docs/policies/kms-key-rotation-enabled.md) | [code](https://github.com/hashicorp/policy-library-cis-aws-kms-terraform/blob/main/policies/kms-key-rotation-enabled.sentinel))
 
 ## Getting Started
 
